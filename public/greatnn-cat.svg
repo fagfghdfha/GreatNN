@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <title>GreatNN black cat</title>
+  <style>
+    .tail { transform-origin: 94px 92px; animation: tail 3.4s ease-in-out infinite; }
+    .eyes { transform-origin: 60px 66px; animation: blink 4.6s ease-in-out infinite; }
+    @keyframes tail { 0%,100% {transform:rotate(-6deg)} 50% {transform:rotate(8deg)} }
+    @keyframes blink { 0%,43%,49%,100% {transform:scaleY(1)} 46% {transform:scaleY(.09)} }
+    @media (prefers-reduced-motion:reduce) { .tail,.eyes {animation:none} }
+  </style>
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="#d9f4e9"/>
+  <circle cx="102" cy="28" r="8" fill="#b2e6d1"/>
+  <path d="M102 22v12m-6-6h12" stroke="#eafbf4" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="66" cy="110" rx="38" ry="5" fill="#a8dccc"/>
+  <g class="tail">
+    <path d="M82 97c14 8 31-3 29-17-1-8-7-13-12-13" fill="none" stroke="#18212a" stroke-width="11" stroke-linecap="round"/>
+  </g>
+  <path d="M48 74c-13 5-20 16-19 26 1 7 8 10 16 10h35c9 0 16-5 16-12s-6-18-14-23z" fill="#1f2932"/>
+  <path d="M29 56 29 26q0-5 4-2l18 15q12-4 24 0l17-15q4-3 4 2l-2 29q6 8 5 17c-2 14-16 22-35 22-22 0-37-9-39-23-1-5 1-10 4-15z" fill="#171e27"/>
+  <path d="m35 32 12 11-11 5zm54 0-10 11 10 5z" fill="#9b6c7c"/>
+  <g class="eyes">
+    <ellipse cx="48" cy="66" rx="8" ry="9" fill="#b9ef91"/>
+    <ellipse cx="76" cy="66" rx="8" ry="9" fill="#b9ef91"/>
+    <ellipse cx="50" cy="66" rx="3.3" ry="7" fill="#171e27"/>
+    <ellipse cx="78" cy="66" rx="3.3" ry="7" fill="#171e27"/>
+    <circle cx="48" cy="62" r="1.5" fill="#effffe"/>
+    <circle cx="76" cy="62" r="1.5" fill="#effffe"/>
+  </g>
+  <path d="M59 75q3-2 6 0l-3 4z" fill="#e1a8ad"/>
+  <path d="M62 79q-3 5-7 2m7-2q4 5 8 2" fill="none" stroke="#c98593" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="m29 73-8-2m9 7-7 2m71-7 8-2m-9 7 7 2" fill="none" stroke="#55687a" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M53 101v6m21-6v6" stroke="#425064" stroke-width="2" stroke-linecap="round"/>
+</svg>
